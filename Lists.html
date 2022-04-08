@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nested and Definition List</title>
+
+        <style>
+            table, th, td {
+                border: 2px solid black;
+                border-collapse: collapse;
+                margin: 5px;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 style="text-align: center;">To illustrate Nested and Definition List Tags</h2>
+        <hr>
+        <h3>An ordered nested List:</h3>
+        <ol>
+            <li>Cofee</li>
+            <li>Tea</li>
+            <ol type="a">
+                <li>Black Tea</li>
+                <li>Green Tea</li>
+            </ol>
+            <li>Milk</li>
+        </ol>
+        <h3>A Definition List</h3>
+        <p>Bangalore</p>
+        <p style="margin-left: 15px;">-Capital City of Kamataka</p>
+        <p>Mumbai</p>
+        <p style="margin-left: 15px;">-Capital City of Maharashtra</p>
+
+        <table style="width: 70%;">
+            <thead>
+                <tr>
+                    <th colspan="4"> Table heading cell spanning 4 columns</th>
+                </tr>
+            </thead>
+           
+
+            <tbody>
+                <tr>
+                    <td>Normal cell</td>
+
+                    <td colspan="2">Cell spanning 2 cols</td>
+
+                    <td>Normal cell</td>
+                </tr>
+
+                <tr>
+                    <td style="background-color: gray; 
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+                    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" 
+                    rowspan="3"> cell spaning 3 row with gray (us spelling) bg</td>
+
+                    <td>Normal cell</td>
+
+                    <td>Normal cell</td>
+
+                    <td>Normal cell</td>
+                </tr>
+
+                <tr>
+                    <td>Normal cell</td>
+                    <td colspan="2" rowspan="2">cell spanning 2 rows and two cols</td>
+                </tr>
+                <tr>
+                    <td>Normal cell</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
